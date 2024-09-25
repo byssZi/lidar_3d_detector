@@ -1,0 +1,8 @@
+nms_iou_thresh: 0.01
+pre_nms_top_n: 4096
+class_names: ['Vehicle', 'Pedestrian', 'Cyclist']
+lidar_input_topic: "/nuscenes/LIDAR_TOP/data"
+model_path: "/home/nuc/catkin_ws/src/lidar_3d_detector/model/pointpillars_deployable.onnx"
+engine_path: "/home/nuc/catkin_ws/src/lidar_3d_detector/model/trt.engine"
+data_type: "fp16"
+intensity_scale: 255.0

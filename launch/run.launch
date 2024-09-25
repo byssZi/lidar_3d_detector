@@ -1,0 +1,7 @@
+<launch>
+
+  <rosparam file="$(find lidar_3d_detector)/cfg/params.yaml" command="load" />
+  <node pkg="lidar_3d_detector" type="lidar_3d_detector_node" name="pointpillars" output="screen">
+  </node>
+
+</launch>
