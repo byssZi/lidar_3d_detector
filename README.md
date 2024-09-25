@@ -10,7 +10,7 @@
 * TensorRT OSS 对应你的TensorRT版本
 ***
 # Step1
-修改CMakeList文件以适配你的CUDA，TensorRT系统环境
+修改CMakeLists文件以适配你的CUDA，TensorRT系统环境
 ***
 # Step2
 ```bash
