@@ -7,7 +7,7 @@
 #include <pcl/point_types.h>
 #include <tf2_geometry_msgs/tf2_geometry_msgs.h>
 #include <cuda_runtime.h>
-#include "pointpillar.h"  // 包含你的pointpillar头文件
+#include "lidar_3d_detector/pointpillar.h"  // 包含你的pointpillar头文件
 #include <visualization_msgs/MarkerArray.h>
 
 #define checkCudaErrors(status)                                   \

@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <math.h>
 #include <cuda_runtime_api.h>
-#include "postprocess.h"
+#include "lidar_3d_detector/postprocess.h"
 
 #define checkCudaErrors(status)                                   \
 {                                                                 \

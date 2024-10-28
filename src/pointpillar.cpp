@@ -10,7 +10,7 @@
 #include "NvOnnxParser.h"
 #include "NvInferRuntime.h"
 #include "NvInferPlugin.h"
-#include "pointpillar.h"
+#include "lidar_3d_detector/pointpillar.h"
 
 #define checkCudaErrors(status)                                   \
 {                                                                 \
